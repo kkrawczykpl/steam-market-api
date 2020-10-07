@@ -7,7 +7,7 @@ class URLHelper {
      * @param url 
      * @returns space to plus 
      */
-    public convertSpaceToPlus(url: string): string {
+    public formatURL(url: string): string {
         return url.split(' ').join('+');
     }
 
